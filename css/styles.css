@@ -3,10 +3,15 @@ span {
 }
 
 img {
-  float: left;
+  float: right;
 }
 
 .container {
   width: 300px;
   float: left;
+}
+
+.heading {
+  font-family: cursive;
+  color: darkseagreen;
 }
