@@ -8,7 +8,18 @@ img {
   height: 25%
 }
 
+img{
+  padding: 3px
+}
+
 .heading {
   font-family: cursive;
   color: darkseagreen;
+}
+
+.container {
+  padding: 15px;
+  margin: 12px;
+  border: lightyellow;
+  background-color: teal;
 }
