@@ -4,11 +4,11 @@
   display: inline-block;
 }
 
-.top-pic {
-  display: block;  
+.top-pic { 
+  display: block;
   width: 100%;
   height: auto;
-  }
+}
 
 .overlay {
   position: absolute;
@@ -20,6 +20,10 @@
   height: 100%;
   width: 100%;
   background-color: dimgrey;
+}    
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .text {
@@ -32,10 +36,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.container: :hover {
-  opacity: 1;
 }
 
 img{
@@ -64,7 +64,6 @@ img{
   width: 30%;
   float: left;
   padding: 3px;
-  height: ;
 }
 
 span {
