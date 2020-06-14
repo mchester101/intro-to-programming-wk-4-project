@@ -5,3 +5,8 @@ span {
 img {
   float: left;
 }
+
+.container {
+  width: 300px;
+  float: left;
+}
