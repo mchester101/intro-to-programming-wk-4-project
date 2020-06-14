@@ -19,7 +19,10 @@ img{
 
 .container {
   padding: 15px;
-  margin: 12px;
   border: lightyellow;
-  background-color: teal;
+}
+
+.p {
+  float: left;
+  padding: 3px;
 }
