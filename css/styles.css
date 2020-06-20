@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.top-pic { 
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  transition: all .5s ease;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: dimgrey;
+}    
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img{
+  float: right;
+  width: 50%;
+  height: 25%
+  padding: 3px
+}
+
+.top-heading {
+  color: darkseagreen;
+  font-family: cursive;
+  text-align: center;
+}
+
+.heading {
+  font-family: cursive;
+  color: darkseagreen;
+}
+
+.my-container {
+  padding: 15px;
+}
+
+.p {
+  width: 30%;
+  float: left;
+  padding: 3px;
+}
+
+span {
+  color: blue;
+}
+
+
